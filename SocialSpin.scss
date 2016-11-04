@@ -1,4 +1,4 @@
-a {
+.socialslide a {
   color: #fff;
   text-decoration: none;
 }
@@ -36,6 +36,7 @@ a {
 .socialslide span i {
   margin-left: 10px;
   color: #000;
+  background: #fff;
   padding: 10px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -52,14 +53,23 @@ a {
 }
 
 .socialslide span.twitter i {
-  background: #55acee;
-}
-
-.socialslide span.twitter:hover i {
   color: #55acee; 
-  background: #000000;
+  background: #000;
+  border: 3px outset #55acee;
+}
+.socialslide span.twitter:hover i {
+  background: #55acee; 
+  color: #000;
+  border: 3px inset #55acee;
 }
 
+.socialslide span.facebook i {
+  color: #3b5998; 
+  background: #000;
+  border: 3px outset #3b5998;
+}
 .socialslide span.facebook:hover i {
-  color: #3b5998;
+  background: #3b5998; 
+  color: #000;
+  border: 3px inset #3b5998;
 }
