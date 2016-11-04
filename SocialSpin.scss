@@ -1,0 +1,68 @@
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.socialslide {
+  width: auto;
+  top: 10px;
+}
+
+.socialslide span{
+  margin: 5px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.socialslide span:hover a {
+  color: #000;
+}
+
+.socialslide span:hover i {
+  background: rgba(0, 0, 0, 0.36);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.socialslide span i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  background: #ffffff;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.socialslide span.twitter:hover i {
+  color: #55acee; 
+}
+
+.socialslide span.facebook:hover i {
+  color: #3b5998;
+}
+
+body {
+  background: #25343F;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
