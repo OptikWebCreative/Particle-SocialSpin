@@ -1,1 +1,29 @@
-#
+name: Social Spin
+description: Displays Linked Social Media Icons
+type: particle
+icon: fa-share-alt
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the particle.
+      default: true
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    fb:
+      type: input.text
+      label: Facebook
+      description: Enter last part of URL (After facebook.com/).
+      placeholder: Enter last part of URL (After facebook.com/)
+
+    tw:
+      type: input.text
+      label: Twitter
+      description: Enter last part of URL (After twitter.com/).
+      placeholder: Enter last part of URL (After twitter.com/)
