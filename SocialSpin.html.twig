@@ -1,7 +1,16 @@
 
-<div class="socialslide">
+
      <span class="twitter"><a href="http://twitter.com/*link*" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a></span>
      <span class="facebook"><a href="http://facebook.com/*link*"><i class="fa fa-facebook"></i></a></span>
               
       </nav>
        
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+    <div class="socialslide">
+		{% if particle.tw %}<span class="twitter"><a href="http://twitter.com/{{ infolist.link|raw }}">{{ infolist.title|raw }}</a></div>{% endif %}
+		{% if particle.fb %}<div class="g-infolist-item-desc">{{ infolist.description|raw }}</div>{% endif %}	
+	</div>
+
+{% endblock %}
