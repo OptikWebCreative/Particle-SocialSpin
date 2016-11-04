@@ -118,18 +118,6 @@
   border: 3px inset #f46f30;
 }
 
-
-.socialslide span.whatsapp i {
-  color: #4dc247; 
-  background: #000;
-  border: 3px outset #4dc247;
-}
-.socialslide span.whatsapp:hover i {
-  background: #4dc247; 
-  color: #000;
-  border: 3px inset #4dc247;
-}
-
 .socialslide span.pinterest i {
   color: #cb2027; 
   background: #000;
@@ -152,19 +140,6 @@
   border: 3px inset #00bf8f;
 }
 
-
-.socialslide span.snapchat i {
-  color: #fffc00; 
-  background: #000;
-  border: 3px outset #fffc00;
-}
-.socialslide span.snapchat:hover i {
-  background: #fffc00; 
-  color: #000;
-  border: 3px inset #fffc00;
-}
-
-
 .socialslide span.quora i {
   color: #a82400; 
   background: #000;
@@ -176,7 +151,6 @@
   border: 3px inset #a82400;
 }
 
-
 .socialslide span.flickr i {
   color: #ff0084; 
   background: #000;
@@ -186,4 +160,48 @@
   background: #ff0084; 
   color: #000;
   border: 3px inset #ff0084;
+}
+
+.socialslide span.skype i {
+  color: #00aff0; 
+  background: #000;
+  border: 3px outset #00aff0;
+}
+.socialslide span.skype:hover i {
+  background: #00aff0; 
+  color: #000;
+  border: 3px inset #00aff0;
+}
+
+.socialslide span.slideshare i {
+  color: #f7941e; 
+  background: #000;
+  border: 3px outset #f7941e;
+}
+.socialslide span.slideshare:hover i {
+  background: #f7941e; 
+  color: #000;
+  border: 3px inset #f7941e;
+}
+
+.socialslide span.tumblr i {
+  color: #2c4762; 
+  background: #000;
+  border: 3px outset #2c4762;
+}
+.socialslide span.tumblr:hover i {
+  background: #2c4762; 
+  color: #000;
+  border: 3px inset #2c4762;
+}
+
+.socialslide span.github i {
+  color: #ffffff; 
+  background: #000;
+  border: 3px outset #ffffff;
+}
+.socialslide span.github:hover i {
+  background: #ffffff; 
+  color: #000;
+  border: 3px inset #ffffff;
 }
